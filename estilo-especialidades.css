@@ -1,0 +1,27 @@
+.sessao-especialidade {
+    margin-top: 40px;
+}
+
+.container-titulo {
+    padding: 0 20px;
+}
+
+.container-links-especialidades {
+    padding: 0 20px;
+    text-align: center;
+}
+
+.links-especialidades {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.links-especialidades a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 2px solid #00cad1;
+    margin: 0 10px 10px;
+}
