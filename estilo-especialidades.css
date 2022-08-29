@@ -69,3 +69,24 @@
 .tabela-especialistas th, .tabela-especialistas td {
     padding: 10px;
 }
+
+@media (max-width: 768px) {
+    .box-tabela-especialista img {
+        display: none;
+    }
+
+    .tabela-especialistas {
+        width: 100%;
+    }
+
+    .box-tabela-especialista {
+        height: auto;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 425px) {
+    .box-tabela-especialista {
+        padding: 0;
+    }
+}
